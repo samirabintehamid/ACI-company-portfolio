@@ -1,0 +1,337 @@
+/* CSS Document */
+
+#content {
+	background:url(../images/bg_content.png) top center repeat-y;
+	position:relative;
+	padding: 26px 40px 31px;
+	height: 518px;
+	}
+
+.content {
+	background:url(../images/bg_content.png) top center repeat-y;
+	position:relative;
+	padding: 26px 40px 31px;
+	height: 1000px;
+	}	
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/	
+
+.pt20 {
+	padding-top:20px;
+	}	
+	
+.pb20 {
+	padding-bottom:20px;
+	}
+	
+.plr20 {padding:0 20px;}
+.p20 {
+	padding:20px;
+	}		
+
+.pr20{
+	padding-right:20px;
+	}
+	
+.mr40 {
+	margin-right:40px;	
+	}	
+	
+.mb8 {
+	margin-bottom:8px;
+	}	
+	
+.mb15 {
+	margin-bottom:15px;
+	}	
+	
+.mb30{
+	margin-bottom: 30px;
+	}	
+	
+.mb40{
+	margin-bottom: 40px;
+	}	
+	
+.mb50{
+	margin-bottom: 50px;
+	}
+	
+.mb60{
+	margin-bottom: 60px;
+	}	
+	
+.mb72{
+	margin-bottom: 72px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+.pr_30{
+	padding-right:30px;
+	}
+
+
+	
+.pt_25 {
+	padding-top:25px;
+	}	
+	
+.pr_10 {
+	padding-right:10px;
+	}	
+	
+.pr_20 {
+	padding-right:20px;
+	}	
+
+.mb28 {
+	margin-bottom:28px;
+	}
+	
+.mb50{
+	margin-bottom: 50px;
+	}
+.mr20 {
+	margin-right:20px;
+	}
+
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	display:inline;
+	float: left;
+	position: relative;
+	}
+	
+/* Grid - content >> Global
+----------------------------------------------------------------------------------------------------*/
+.content .grid_1, #content .grid_1{
+	width:580px;
+	float: left;
+	}
+
+.content .grid_2, #content .grid_2{
+	width:290px;
+	float: right;
+	}
+	
+.content .grid_3, #content .grid_3{
+	width:250px;
+	float: left;
+	}
+	
+.content .grid_4, #content .grid_4{
+	width:460px;
+	float: right;
+	}
+
+.content .grid_5, #content .grid_5{
+	width:435px;
+	float: right;
+	}
+
+
+
+.grid_5 {
+	width:440px;
+	float: left;
+	}
+	
+.grid_6 {
+	width:130px;
+	float: left;
+	}
+
+.grid_7 {
+	width:290px;
+	float: left;
+	}
+
+/* Box >> Global
+----------------------------------------------------------------------------------------------------*/
+.partn_box {
+	width: 179px;
+	float:left;
+	border: none;
+	} 
+	
+.partn_box img {
+	margin-bottom: 20px;
+	}
+	
+.product_box {
+	width: 280px;
+	float:left;
+	border: none;
+	} 
+	
+.product_box img{
+	float:left;
+	} 
+	
+.link_box {
+	width: 205px;
+	float:left;
+	border: none;
+	font-size:12px;
+	line-height:21px;
+	}
+		
+.link_box a{
+	display:block;
+	float:left;
+	}		
+	
+.img {
+	float:left;
+	background:#fff;
+	padding:5px;
+	border: 1px #cfcfcf solid;
+	margin-right: 20px;
+	}	
+	
+/* background >>
+----------------------------------------------------------------------------------------------------*/
+.bg_1{
+	background:url(../images/pinn_01.png) top left no-repeat;
+	padding-left: 40px;
+	}	
+
+.bg_2{
+	background:url(../images/pinn_02.png) top left no-repeat;
+	padding-left: 40px;
+	}
+	 
+.bg_3{
+	background:url(../images/pinn_03.png) top left no-repeat;
+	padding-left: 40px;
+	}
+	
+/* link >>
+----------------------------------------------------------------------------------------------------*/
+
+a{	text-decoration:underline;
+	color:#569ae1; 
+	}
+	
+a:hover{
+	text-decoration:none;
+	}
+	
+a.link{
+	color:#5e5e5e;
+	text-decoration:underline;
+	}
+
+a.link:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	line-height:12px; 
+	color:#5e5e5e;
+	text-decoration:none;
+	}	
+	
+a.link_1{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	line-height:14px;
+	color:#4197e6;
+	text-decoration:none;
+	}
+	
+
+a.link_1:hover{
+	text-decoration:underline;
+	color:#fff; 
+}
+
+a.logo {
+	display:block;
+	width:110px;
+	float:left;
+	padding-right:10px;
+	}
+
+a.more  {
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px; 
+	line-height:15px; 
+	color:#4197e6; 
+	font-weight:normal;
+	margin-top: 38px;
+	float:left;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+a.more:hover  {
+	text-decoration:underline;
+	}
+	
+a.button {
+	display:block;
+	float:right;
+	background:#3970a9;
+	padding:13px;
+	margin-right: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	line-height:14px; 
+	color:#fff; 
+	font-weight:bold;
+	margin-top: 27px;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+a.button:hover {
+	text-decoration:none;
+	}
+	
+	
+a.slide{
+	display:block;
+	width: 220px;
+	background:url(../images/pinn_white.png) left center no-repeat;
+	padding-left: 25px;
+	margin-top: 23px;
+	font-family: 'proxima_nova_ltregular' ; 
+	font-size:18px; 
+	line-height:18px; 
+	color:#fff; 
+	font-weight:normal;text-decoration:none;
+	}
+	
+
+a.slide:hover {
+	text-decoration:underline;}
+	
+a:hover img.img {
+	background: #4197e6;
+	}	
+	
+/* CSS Document */
+
